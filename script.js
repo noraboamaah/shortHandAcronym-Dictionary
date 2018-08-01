@@ -37,6 +37,8 @@ button.addEventListener("click", search);
 
 if (accronyms[word] !== undefined){
 	word = accronyms[word];
+}else{
+	word = "sorry, this is not a fancy acronym"
 }
 
 output = word;
