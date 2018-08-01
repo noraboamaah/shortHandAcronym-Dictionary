@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>accrotionary</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+
+
+
+	<style type="text/css">
+
+
+		nav, footer{
+			height: 10vh;
+			border: 5px 0px;
+			text-align: center;
+			background: #f17970;
+			text-indent: 2vh;
+			padding: 1em;
+			color: white;
+
+		}
+
+
+
+
+
+
+		footer{
+			height: 5vh;
+		}
+
+		.mainArea{
+			height: 90vh;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			background-image: url(background.jpg);
+			margin-top: -1em;
+		}
+
+		.free{
+			width: 50vw;
+			height: 60vh;
+			background-color: white;
+			border-radius: 1em;
+			
+		}
+
+		hr{
+			width: 45vw;
+		}
+
+		#meaning{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			font-size: 2em;
+		}
+
+	</style>
+
+
+
+
+</head>
+<body>
+
+	 <nav> <h2> Search for the Meaning of all your Fancy Shorthand </h2></nav>
+
+	<p id="outputArea"></p>
+
+	<div class="mainArea">
+		<div class="free">
+			<div class="row">
+			 <div class="col-8">
+			<div class="form-group">
+ 
+  				<input type="text" class="form-control word"  style=" margin:2em;" placeholder="Search here...">
+  			</div> </div>
+
+  					<div class="col-4">
+  					<button type="button" class="btn btn-danger btnSearch"  style="margin: 2em; width: 10vw"> search </button>
+						</div> </div>
+
+						<hr>
+
+						<div style="margin-left: 1rem; font-size: 3em;">
+							Meaning:
+						</div>
+
+						<div id="meaning" >
+							<p class="outputArea">
+								
+							</p>
+							
+						</div>
+
+
+			
+							</div>
+		
+								</div>
+
+
+
+	
+
+	<footer> </footer>
+	<script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>
