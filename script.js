@@ -24,7 +24,6 @@ button.addEventListener("click", search);
 				mce: "Man Crush Everyday",
 				wcm: "Woman Crush Monday",
 				wce: "Woman Crush Everyday",
-				// s/o: "Shout out",
 				tbh: "To be Honest",
 				brb: "Be Right back",
 				wyd: "What You Doing",
